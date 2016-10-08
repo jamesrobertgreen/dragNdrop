@@ -1,0 +1,27 @@
+.container {
+    padding: 2em;
+}
+
+.item {
+    background-color: white;
+    cursor: move;
+    border: 2px;
+    border-color: dimgray;
+    border-style: solid;
+    border-radius: 0.75em;
+    padding: 1em;
+    margin: 1em;
+    box-shadow: 100px;
+}
+
+.item:hover {
+    background-color: lightgray;
+}
+
+.item:active {
+    background-color: darkgray;
+}
+
+ul {
+    list-style: none;
+}
